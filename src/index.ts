@@ -20,7 +20,7 @@ app.post('/', AuthMiddleware, async (c) => {
   return c.text('Hello Hono!')
 })
 app.get('/', async (c) => {
-  return c.text('Hello Hono!');l
+  return c.text('Hello Hono!');
  })
 
 export default app
